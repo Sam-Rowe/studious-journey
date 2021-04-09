@@ -1,0 +1,75 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "apimName": {
+            "value": "geospacial-exp-apis"
+        },
+        "organizationName": {
+            "value": "Contoso-Geo"
+        },
+        "adminEmail": {
+            "value": "sarowe@microsoft.com"
+        },
+        "tier": {
+            "value": "Consumption"
+        },
+        "appInsightsOption": {
+            "value": false
+        },
+        "appInsightsObject": {
+            "value": {
+                "name": "generatedName",
+                "id": "generatedId"
+            }
+        },
+        "capacity": {
+            "value": ""
+        },
+        "identity": {
+            "value": {
+                "type": "SystemAssigned"
+            }
+        },
+        "virtualNetworkType": {
+            "value": "None"
+        },
+        "vnet": {
+            "value": {}
+        },
+        "tripleDES": {
+            "value": false
+        },
+        "http2": {
+            "value": false
+        },
+        "clientTls11": {
+            "value": false
+        },
+        "clientTls10": {
+            "value": false
+        },
+        "clientSsl30": {
+            "value": false
+        },
+        "backendTls11": {
+            "value": false
+        },
+        "backendTls10": {
+            "value": false
+        },
+        "backendSsl30": {
+            "value": false
+        },
+        "tagsByResource": {
+            "value": {
+                "Microsoft.ApiManagement/service": {
+                    "Environment": "dev"
+                }
+            }
+        }
+    }
+}
